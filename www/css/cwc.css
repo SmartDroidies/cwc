@@ -35,6 +35,8 @@ h3 {
 
 .content {
 	margin-bottom : 50px;
+	height : 100%;
+	overflow : auto;
 }
 
 snap-content  {
@@ -50,7 +52,6 @@ snap-drawer  {
 .nav-section {
 	margin : auto;
 	text-align : center;
-	margin-top : 50px;
 }
 
 .alert {
@@ -125,9 +126,26 @@ snap-drawer  {
 	display : none;
 } 
 
-/*
-a.nav_link:hover, a.nav_link:visited, a.nav_link:active {
-    color: #FF00FF;
+.footer_link  {
+	width :24%;
 }
-*/
 
+.points  thead tr th {
+	text-align : center;
+} 
+
+.panel-title  {
+	text-align : center;
+	font-weight : bold;
+} 
+
+
+#spinner {
+	height:100%;
+	text-align : center;
+	vertical-align : center;
+}
+
+#main {
+	margin-bottom : 25px;
+}

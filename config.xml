@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.smart.droid.cricket.worldcup" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.smart.droid.cricket.worldcup" version="0.0.1" android-versionCode="1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Cricket WorldCup 2015</name>
     <description>
         Mobile App for Cricket WorldCup 2015 
@@ -7,6 +7,12 @@
     <author email="smartdroidies@gmail.com" href="http://cordova.io">
         Smart Droid Team
     </author>
+	<platform name="android">
+		<icon src="res/android/cwc_ldpi.png" density="ldpi" />
+        <icon src="res/android/cwc_mdpi.png" density="mdpi" />
+        <icon src="res/android/cwc_hdpi.png" density="hdpi" />
+        <icon src="res/android/cwc_xhdpi.png" density="xhdpi" />
+    </platform>	
     <content src="index.html" />
     <access origin="*" />
 </widget>

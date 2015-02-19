@@ -33,6 +33,8 @@ E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\bundle \
 E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\cordova.js \
 E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\cordova_plugins.js \
 E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\css \
+E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\fonts \
+E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\image \
 E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\img \
 E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\index.html \
 E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\index_bkp.html \
@@ -43,6 +45,12 @@ E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\css\bootstrap.css \
 E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\css\bootstrap.css.map \
 E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\css\cwc.css \
 E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\css\index.css \
+E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\fonts\glyphicons-halflings-regular.eot \
+E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\fonts\glyphicons-halflings-regular.svg \
+E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\fonts\glyphicons-halflings-regular.ttf \
+E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\fonts\glyphicons-halflings-regular.woff \
+E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\image\header.png \
+E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\image\spinner.gif \
 E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\img\logo.png \
 E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\js\angular \
 E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\js\angular-mocks \
@@ -187,7 +195,9 @@ E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\js\snapjs\snap.js \
 E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\js\snapjs\snap.min.js \
 E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\js\underscore\angular-underscore-module.js \
 E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\js\underscore\underscore.js \
+E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\partials\fixtures.html \
 E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\partials\home.html \
-E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\partials\tip.html \
-E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\partials\tips.html \
+E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\partials\points.html \
+E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\partials\results.html \
+E:\WorkSpace\Cordova\cwc\platforms\android\assets\www\partials\stats.html \
 E:\WorkSpace\Cordova\cwc\platforms\android\ant-build\AndroidManifest.xml \

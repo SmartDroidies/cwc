@@ -1,0 +1,82 @@
+<div id="spinner" data-role="page">
+	<img src="image/spinner.gif"/>
+</div>
+<div id="main" data-role="page">
+	<div class="panel panel-default">
+	  <div class="panel-heading">
+		<h3 class="panel-title">Pool A</h3>
+	  </div>
+	 <!-- Table -->
+	  <table class="table points">
+		<thead>
+			<tr>
+                <th>Team</th>
+                <th>P</th>
+                <th>W</th>
+                <th>L</th>
+                <th>T</th>
+                <th>N/R</th>
+                <th>P</th>
+                <th>RR</th>
+			</tr>
+        </thead>	  
+		<tbody>
+			<tr ng-repeat="item in points | filter: { 1: 'A' }">
+				<!--td>{{item.0}}</td>
+                <td>{{item.1}}</td>
+                <td>{{item.2}}</td-->
+                <td>{{item.3}}</td>
+                <td>{{item.4}}</td>
+				<td>{{item.5}}</td>
+                <td>{{item.6}}</td>
+                <td>{{item.7}}</td>
+                <td>{{item.8}}</td>
+                <td>{{item.9}}</td>
+                <td>{{item.10}}</td>
+			</tr>
+        </tbody>	  
+	  </table>	  
+	</div>
+	<div class="panel panel-default">
+	  <div class="panel-heading">
+		<h3 class="panel-title">Pool B</h3>
+	  </div>
+	  <table class="table points">
+		<thead>
+			<tr>
+                <th>Team</th>
+                <th>P</th>
+                <th>W</th>
+                <th>L</th>
+                <th>T</th>
+                <th>N/R</th>
+                <th>P</th>
+                <th>RR</th>
+			</tr>
+        </thead>	  
+		<tbody>
+			<tr ng-repeat="item in points | filter: { 1: 'B' }">
+				<!--td>{{item.0}}</td>
+                <td>{{item.1}}</td>
+                <td>{{item.2}}</td-->
+                <td>{{item.3}}</td>
+                <td>{{item.4}}</td>
+				<td>{{item.5}}</td>
+                <td>{{item.6}}</td>
+                <td>{{item.7}}</td>
+                <td>{{item.8}}</td>
+                <td>{{item.9}}</td>
+                <td>{{item.10}}</td>
+			</tr>
+        </tbody>	  
+	  </table>	  
+	</div>
+</div>
+<nav class="navbar navbar-default navbar-fixed-bottom">
+	<ul class="nav nav-pills">
+		<li class="footer_link"><a href="#stats" class="nav_link">Stats</a></li>
+		<li class="footer_link"><a href="#result" class="nav_link">Result</a></li>
+		<li class="footer_link"><a href="#fixtures" class="nav_link">Fixtures</a></li>
+		<li class="footer_link active"><a href="#points" class="nav_link">Points</a></li>
+	</ul>		
+</nav>
