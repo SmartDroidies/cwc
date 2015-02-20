@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.smart.droid.cricket.worldcup" version="0.0.1" android-versionCode="1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Cricket WorldCup 2015</name>
+<widget id="com.career.wrap.cricket.worldcup" version="0.0.4" android-versionCode="4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Worldcup Cricket 2015</name>
     <description>
         Mobile App for Cricket WorldCup 2015 
     </description>
-    <author email="smartdroidies@gmail.com" href="http://cordova.io">
-        Smart Droid Team
+    <author email="careerwrap@gmail.com" href="http://careerwrap.com">
+        Career Wrap Team
     </author>
 	<platform name="android">
 		<icon src="res/android/cwc_ldpi.png" density="ldpi" />

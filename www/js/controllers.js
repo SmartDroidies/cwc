@@ -37,17 +37,17 @@ cwcControllers.controller('PointsCtrl', ['$scope', '$routeParams', 'Points', 'ca
 		}
 	}
 	
-	//Loading the Tips
+	//Loading the Points
 	$scope.loadPoints();
 }]);
 
 //Controller to display fixtures
-cwcControllers.controller('FixturesCtrl', ['$scope', '$routeParams', 'Points', 'cacheService',
-  function($scope, $routeParams, Points, cacheService) {
-	$scope.loadPoints = function () {
+cwcControllers.controller('FixturesCtrl', ['$scope', '$routeParams', 'Fixture', 'cacheService',
+  function($scope, $routeParams, Fixture, cacheService) {
+	$scope.loadFixture = function () {
 		$('#spinner').show();
 		$('#main').hide();
-		var cache = cacheService.get('points');
+		var cache = cacheService.get('fixture');
 		if(cache) {
 			//console.log('Loading data from cache for : ' + cache);
 			$scope.points = cache;
@@ -55,20 +55,20 @@ cwcControllers.controller('FixturesCtrl', ['$scope', '$routeParams', 'Points', '
 			$('#spinner').hide();
 		} else {
 			//console.log('Loading data from rest service ' + cache);
-			Points.query({}, function(response) {
+			Fixture.query({}, function(response) {
 				console.log('Response ' + JSON.stringify(response));
-				var points = Points.query();
-				if (!angular.isUndefined(points)) {
-					cacheService.put('points', points);
+				var fixture = Fixture.query();
+				if (!angular.isUndefined(fixture)) {
+					cacheService.put('fixture', fixture);
 				}
-				$scope.points = points;
+				$scope.fixture = fixture;
 				$('#main').show();
 				$('#spinner').hide();
 			}); 
 		}
 	}
 	
-	//Loading the Tips
-	$scope.loadPoints();
+	//Loading the Fixture
+	$scope.loadFixture();
 }]);
 
